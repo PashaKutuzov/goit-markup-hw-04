@@ -60,7 +60,7 @@ align-items: center;
 color: #404bbf;
 } 
 
-.menu-link.current:active:after{
+.menu-link.current::after{
     content: '';
         position: absolute;
         left: 0;
