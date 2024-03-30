@@ -118,11 +118,26 @@ a:hover, a:focus {
 }
 /*main-content*/
 
+
+
 .page-title {
     background-color: #2e2f42;
     padding: 188px 0;
-    
+    position: relative;
+   background-image: linear-gradient(
+to bottom, 
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),
+   url(../images/people-office1.jpg);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
 }
+
+
 
 
 .title{
@@ -135,7 +150,7 @@ a:hover, a:focus {
         max-width: 496px;
         margin-left: auto;
         margin-right: auto;
-        
+        padding-bottom: 48px ;
 }
 
 
