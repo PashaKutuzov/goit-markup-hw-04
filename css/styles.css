@@ -567,7 +567,7 @@ color: white;
   }
 
   .icon-title{
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 
 .icon-list {
@@ -595,5 +595,8 @@ color: white;
 }
 
 .icon-link:hover{
+    background-color: #31d0aa
+}
+.icon-link:focus{
     background-color: #31d0aa
 }
