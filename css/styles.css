@@ -66,7 +66,7 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.menu-link.current:active::after{
+.menu-link.current::after{
     content: '';
         position: absolute;
         
@@ -78,10 +78,10 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 4px;
         border-radius: 2px;
         background-color:#404bbf;
-
+      
 }
 
-       
+:active
 
 
 
@@ -327,10 +327,10 @@ background: white;
      }                   
 .name-profession{
     
-   padding-top: 32px; 
-
-
+    padding: 32px 0 
 }
+
+
 .team-name{
     text-align: center;
     margin-bottom: 8px;
